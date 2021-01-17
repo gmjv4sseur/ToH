@@ -8,7 +8,7 @@ import { Hero } from '../hero';
 })
 export class HeroDetailComponent implements OnInit {
 
-  //Retrieve value from parent component
+  //Retrieve value from parent
   @Input() hero: Hero;
 
   constructor() { }
